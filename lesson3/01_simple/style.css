@@ -1,0 +1,43 @@
+.title {
+  background-color: darkred;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.m_image p {
+  text-align: center;
+}
+.firstImage {
+  width: 100%;
+}
+.copyright {
+  background-color: black;
+}
+
+.copyright h3 {
+  color: white;
+  text-align: center;
+}
+.nono {
+  list-style-type: none;
+  text-align: center;
+}
+
+ol li {
+  display: inline;
+}
+
+li img {
+  border-style: dotted;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
