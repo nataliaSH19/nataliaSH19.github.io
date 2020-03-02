@@ -81,44 +81,44 @@ h2 {
 
 .image_anchor {
   height: 40%;
-  background: url("/img/anchor.png") no-repeat;
+  background: url(img/anchor.png) no-repeat;
   background-position: center;
 }
 
 .image_diamond {
   height: 40%;
-  background: url("/img/diamond.png") no-repeat;
+  background: url(img/diamond.png) no-repeat;
   background-position: center;
 }
 
 .image_eye {
   height: 40%;
-  background: url("/img/eyeglasses.png") no-repeat;
+  background: url(img/eyeglasses.png) no-repeat;
   background-position: center;
 }
 
 .image_monitor {
   height: 40%;
-  background: url("/img/monitor.png") no-repeat;
+  background: url(img/monitor.png) no-repeat;
   background-position: center;
 }
 
 .card:hover .image_anchor {
-  background: url("/img/anchor_w.png") no-repeat;
+  background: url(img/anchor_w.png) no-repeat;
   background-position: center;
 }
 
 .card:hover .image_diamond {
-  background: url("/img/diamond_w.png") no-repeat;
+  background: url(img/diamond_w.png) no-repeat;
   background-position: center;
 }
 
 .card:hover .image_eye {
-  background: url("/img/eyeglasses_w.png") no-repeat;
+  background: url(img/eyeglasses_w.png) no-repeat;
   background-position: center;
 }
 
 .card:hover .image_monitor {
-  background: url("/img/monitor_w.png") no-repeat;
+  background: url(img/monitor_w.png) no-repeat;
   background-position: center;
 }
