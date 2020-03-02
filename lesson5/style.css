@@ -1,0 +1,124 @@
+.header {
+  max-width: 45%;
+  margin: 0 auto;
+}
+h3 {
+  color: #898f99;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  text-align: center;
+  margin-top: 60px;
+}
+h1 {
+  color: #0ec8cb;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  text-align: center;
+}
+h2 {
+  color: #999999;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.iconboxes {
+  display: flex;
+  max-width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 236px;
+  height: 420px;
+  border: 1px solid #ececec;
+  background-color: #f7f7f7;
+}
+
+.title {
+  color: #1b1b1b;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  height: 10%;
+}
+
+.description {
+  color: #777777;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+
+.card:hover {
+  border: 1px solid #0ec8cb;
+  background-color: #0ec8cb;
+}
+
+.card:hover .title {
+  color: white;
+}
+
+.card:hover .description {
+  color: white;
+}
+
+.image_anchor {
+  height: 40%;
+  background: url("img/anchor.png") no-repeat;
+  background-position: center;
+}
+
+.image_diamond {
+  height: 40%;
+  background: url("img/diamond.png") no-repeat;
+  background-position: center;
+}
+
+.image_eye {
+  height: 40%;
+  background: url("img/eyeglasses.png") no-repeat;
+  background-position: center;
+}
+
+.image_monitor {
+  height: 40%;
+  background: url("img/monitor.png") no-repeat;
+  background-position: center;
+}
+
+.card:hover .image_anchor {
+  background: url("img/anchor_w.png") no-repeat;
+  background-position: center;
+}
+
+.card:hover .image_diamond {
+  background: url("img/diamond_w.png") no-repeat;
+  background-position: center;
+}
+
+.card:hover .image_eye {
+  background: url("img/eyeglasses_w.png") no-repeat;
+  background-position: center;
+}
+
+.card:hover .image_monitor {
+  background: url("img/monitor_w.png") no-repeat;
+  background-position: center;
+}
