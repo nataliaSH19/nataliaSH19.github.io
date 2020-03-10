@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Playfair+Display&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-color: #ffffff;
+}
+.container {
+  width: 100%;
+  max-width: 1400px;
+  height: 840px;
+  box-shadow: 0px 4px 68px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.block {
+  width: 100%;
+  padding-top: 110px;
+  padding-left: 121px;
+}
+h1 {
+  width: 238px;
+  height: 34px;
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-weight: normal;
+  letter-spacing: -0.21px;
+  color: #171717;
+}
+.text_style {
+  width: 1141px;
+  height: 500px;
+  opacity: 0.7;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.89;
+  letter-spacing: -0.09px;
+  text-align: left;
+  color: rgba(23, 23, 23, 0.7);
+  margin-top: 39px;
+  margin-left: 121px;
+}
+.text_style #letter {
+  float: left;
+  padding-top: 25px;
+  margin-right: 10px;
+  height: 69px;
+  font-family: "Playfair Display", serif;
+  font-size: 110px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.31;
+  letter-spacing: -0.55px;
+  color: #171717;
+}
+
+.text_style1 {
+  font-size: 60px;
+  line-height: 0.67;
+  letter-spacing: -0.3px;
+  font-weight: initial;
+}
+.text_style2 {
+  font-size: 22px;
+  letter-spacing: -0.12px;
+  font-style: italic;
+  color: rgba(23, 23, 23, 0.7);
+  text-indent: 50px;
+}
+.discover {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.89;
+  letter-spacing: 3.6px;
+  color: #dd8227;
+  text-transform: uppercase;
+}
+.button {
+  margin-top: 20px;
+  width: 264px;
+  height: 68px;
+  border: solid 2px #eaa258;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
