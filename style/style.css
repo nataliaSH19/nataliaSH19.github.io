@@ -4,11 +4,10 @@ body {
   line-height: 1;
   font-family: Arial, "sans-serif";
   box-sizing: border-box;
-  background-color: burlywood;
+  background-color: rgb(255, 229, 195);
 }
 
-h1,
-a {
+h1 {
   color: #4d050c;
 }
 
@@ -25,7 +24,8 @@ a {
 }
 
 #beetroot_img {
-  width: 50%;
+  width: 45%;
+  height: 300px;
   margin: 0 auto;
   display: block;
 }
@@ -75,20 +75,42 @@ a {
 .basic_info p:hover a {
   color: white;
 }
-.lesson {
-  text-align: center;
-}
+
 .list_item a {
   font-size: 26px;
   text-decoration: none;
 }
 .lesson_list {
   line-height: 40px;
-  text-decoration: underline;
 }
 .list_item a:hover {
-  color: #0d18d2;
+  color: #6e6511e1;
+  text-decoration: underline;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 li {
-  list-style-type: none; /* Убираем маркеры */
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid rgb(175, 60, 6);
+}
+.lesson {
+  margin: auto;
+  width: 1200px;
+  height: 300px;
+}
+li:nth-child(even) {
+  background-color: #fff5e6;
+}
+li:nth-child(odd) {
+  background-color: #ffebcc;
+}
+a {
+  color: #4d050c;
+  text-decoration: none;
 }
