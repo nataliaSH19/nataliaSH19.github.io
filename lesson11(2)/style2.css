@@ -1,0 +1,164 @@
+* {
+  margin: 0 auto;
+  padding: 0px;
+
+  box-sizing: border-box;
+}
+.block {
+  background-color: #e5eeee;
+  width: 800px;
+  height: 600px;
+  background-image: url(body.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+.block:hover {
+  box-shadow: 0 0 65px rgba(0, 0, 0, 0.72);
+}
+.purpule {
+  position: relative;
+  width: 400px;
+  height: 496px;
+  padding-top: 80px;
+  padding-left: 75px;
+}
+
+.li {
+  display: inline;
+  margin-right: 23px;
+  color: #e1c2f1;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.li:hover {
+  color: #fbf6e4;
+  border-bottom: 3px solid #e66a64;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.user {
+  width: 73px;
+  height: 12px;
+  color: #fbf6e4;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  bottom: 7px;
+}
+.forme {
+  padding-top: 57px;
+}
+.pole {
+  width: 261px;
+  font-size: 21px;
+  font-family: Quicksand;
+  color: whitesmoke;
+  height: 42px;
+  border: 2px solid rgba(191, 185, 204, 0.54);
+  background-color: transparent;
+}
+.submit {
+  width: 261px;
+  height: 42px;
+  background-color: #23ae92;
+  border: none;
+
+  color: #fbf6e4;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-weight: 700;
+}
+.submit:hover {
+  box-shadow: 0 12px 45px rgba(0, 0, 0, 0.32);
+  cursor: pointer;
+  font-size: 20px;
+}
+.checkbox {
+  margin-top: 5px;
+
+  height: 13px;
+  margin-bottom: 40px;
+  color: #fbf6e4;
+  font-family: Quicksand;
+  font-size: 13px;
+  font-weight: 700;
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 23px;
+  margin-bottom: 45px;
+  cursor: pointer;
+  color: #fbf6e4;
+  font-family: Quicksand;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 10px;
+  user-select: none;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background-color: #eee;
+  margin-top: -3.5px;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+  margin-top: -3.5px;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #23ae92;
+  margin-top: -3.5px;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 4.5px;
+  top: 2px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.forgot {
+  display: inline;
+  margin-right: 28px;
+  color: #b9b9cc;
+  font-family: Quicksand;
+  font-size: 13px;
+  font-weight: 400;
+  position: relative;
+  top: 33px;
+  border-bottom: 1px solid rgb(150, 193, 218, 0.15);
+}
+.forgot:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
