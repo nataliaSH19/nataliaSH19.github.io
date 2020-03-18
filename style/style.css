@@ -4,7 +4,7 @@ body {
   line-height: 1;
   font-family: Arial, "sans-serif";
   box-sizing: border-box;
-  background-color: rgb(255, 229, 195);
+  background-color: rgb(150, 141, 131);
 }
 
 h1 {
@@ -85,9 +85,9 @@ h1 {
 .container1 {
   position: absolute;
   height: 300px;
-  width: 600px;
+  width: 1300px;
   top: 480px;
-  left: calc(50% - 300px);
+  left: calc(50% - 700px);
   display: flex;
 }
 
