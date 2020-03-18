@@ -1,0 +1,137 @@
+* {
+  margin: 0 auto;
+  padding: 0px;
+  line-height: 1px;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-image: url(img.png);
+  background-repeat: no-repeat;
+}
+.img {
+  width: 1500px;
+  height: 866px;
+}
+h1 {
+  width: 337px;
+  height: 65px;
+  margin-top: 101px;
+  margin-left: 581px;
+  color: #262626;
+  font-family: Raleway;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.text1 {
+  margin-top: 48px;
+  margin-left: 579px;
+  text-align: center;
+  width: 352px;
+  height: 41px;
+  color: #262626;
+  font-family: Raleway;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 25px;
+}
+.bl {
+  margin-top: 49px;
+  margin-left: 835px;
+}
+.text2 {
+  text-transform: uppercase;
+  height: 37px;
+  color: #262626;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.text3 {
+  margin-bottom: 12px;
+  height: 10px;
+  font-family: Raleway;
+  font-weight: 300;
+  font-size: 17px;
+  font-weight: 300;
+  color: #262626;
+}
+.forme {
+  margin-top: -173px;
+  margin-left: 165px;
+}
+
+.data {
+  padding: 20px;
+  width: 500px;
+  height: 50px;
+  background-color: #00c4c4;
+  margin-bottom: 5px;
+  border: none;
+  opacity: 0.5;
+  color: white;
+  font-family: Raleway;
+  font-size: 16px;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+.message {
+  padding: 20px;
+  width: 500px;
+  background-color: #00c4c4;
+  border: none;
+  opacity: 0.5;
+  color: white;
+  font-family: Raleway;
+  font-size: 16px;
+  height: 250px;
+}
+.data:hover {
+  background-color: #00c4c4;
+  opacity: 1;
+  border-left: 5px solid #355b82;
+}
+.message:hover {
+  background-color: #00c4c4;
+  opacity: 1;
+  border-left: 5px solid #355b82;
+}
+footer {
+  width: 1500px;
+  height: 90px;
+  background-color: #262626;
+  float: left;
+  margin-top: 120px;
+}
+.footer {
+  height: 16px;
+  color: #b9b9b9;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  padding-top: 30px;
+  padding-left: 164px;
+}
+.ca {
+  width: 64px;
+  height: 27px;
+  color: #b9b9b9;
+  font-family: Pacifico;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 25px;
+  padding-left: 295px;
+}
+.love {
+  color: #ff2b58;
+  font-family: Raleway;
+  font-weight: 700;
+}
+.made {
+  padding-left: 362px;
+}
