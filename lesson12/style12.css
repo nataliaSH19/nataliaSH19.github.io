@@ -1,0 +1,130 @@
+* {
+  margin: 0 auto;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.block {
+  width: 100%;
+  height: 790px;
+  background-color: #70bfff;
+}
+ul {
+  list-style-type: none;
+  padding-top: 179px;
+  padding-left: 336px;
+}
+.li {
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  padding: 41px 0px 40px 71px;
+  color: #262626;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  background-color: #ffffff;
+}
+.li1 {
+  margin-top: 120px;
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  padding: 41px 0px 40px 75px;
+  color: #262626;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+}
+
+.li2 {
+  margin-top: 240px;
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  padding: 26px 0px 28px 32px;
+  color: #262626;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  background-color: #ffffff;
+}
+hr {
+  margin-top: -68px;
+  margin-left: 229px;
+  width: 1px;
+  height: 100px;
+  background-color: #9d9d9d;
+}
+.h {
+  margin-top: -68px;
+  margin-left: 225px;
+}
+.r {
+  margin-top: -80px;
+  margin-left: 268px;
+}
+.hr {
+  margin-left: 220px;
+}
+span {
+  margin-left: 77px;
+}
+li:hover {
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.9);
+}
+.li3 {
+  background-color: #ffffff;
+  margin-top: 360px;
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  padding: 41px 0px 40px 80px;
+  color: #262626;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+svg {
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 256px;
+}
+.svg2 {
+  position: absolute;
+  margin-left: 248px;
+}
+.svg3 {
+  margin-top: -74px;
+  position: absolute;
+  margin-left: 291px;
+}
+.svg4 {
+  margin-top: -74px;
+  position: absolute;
+  margin-left: 242px;
+}
+img {
+  padding-left: 879px;
+  margin-top: -79px;
+}
+p {
+  width: 539px;
+  height: 67px;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 27px;
+  position: absolute;
+  margin-top: -283px;
+  margin-left: 811px;
+}

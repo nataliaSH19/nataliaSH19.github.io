@@ -39,11 +39,11 @@ h1 {
   padding: 20px;
   text-align: center;
   color: grey;
-  background: rgb(238, 174, 202);
+  background: rgb(119, 107, 112);
   background: radial-gradient(
     circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
+    rgb(88, 79, 83) 0%,
+    rgb(164, 183, 204) 100%
   );
 }
 .basic_info {
