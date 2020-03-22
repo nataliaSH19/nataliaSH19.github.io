@@ -1,5 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 14px;
+}
 .title {
+  margin-top: 30px;
+  margin-bottom: 30px;
   background-color: darkred;
+  padding: 4px;
 }
 
 h1 {
@@ -7,8 +19,19 @@ h1 {
   text-align: center;
 }
 
-.m_image p {
-  text-align: center;
+.m_image img {
+  display: block;
+  margin: 0 auto;
+  width: 97%;
+}
+.text {
+  padding: 22px;
+  margin-top: 20px;
+  text-align: left;
+}
+.text_content {
+  word-spacing: 2px;
+  font-size: 18px;
 }
 .firstImage {
   width: 100%;
@@ -40,4 +63,13 @@ li img {
 
 .bold {
   font-weight: bold;
+}
+footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.second_text {
+  padding: 22px;
+  margin-top: 10px;
+  text-align: left;
 }
