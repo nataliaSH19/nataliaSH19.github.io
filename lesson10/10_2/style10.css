@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1px;
+}
+body {
+  background-color: #c5c5c8;
+}
+.container {
+  margin-top: 50px;
+  padding: 109px 51px 100px 420px;
+  background-position: center center;
+  background-image: url(super.png), url(psh.png), url(textu.png);
+  background-repeat: no-repeat;
+}
+.block {
+  width: 686px;
+  height: 391px;
+  box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+  border-radius: 10px;
+  background-color: #111a28;
+}
+.logo {
+  padding-top: 24px;
+  padding-left: 21px;
+}
+
+.nike {
+  margin-top: 39px;
+  margin-left: 36px;
+}
+.text {
+  height: 44px;
+  color: #e1e1e1;
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 0.18px;
+  margin-top: 18px;
+
+  margin-left: 433px;
+}
+.text1 {
+  float: right;
+  width: 255px;
+  height: 14px;
+  opacity: 0.54;
+  color: #e1e1e1;
+  font-family: "Quicksand", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 26px;
+  letter-spacing: 0.28px;
+}
+.area {
+  width: 180px;
+  margin-top: -130px;
+  margin-left: 360px;
+}
+.area:not(:checked) > input {
+  display: none;
+}
+.area:not(:checked) > label {
+  float: right;
+  width: 22px;
+  padding: 0;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 23px;
+  color: lightgrey;
+}
+.area:not(:checked) > label:before {
+  content: "★";
+}
+.area > input:checked ~ label {
+  color: gold;
+}
+.area:not(:checked) > label:hover,
+.area:not(:checked) > label:hover ~ label {
+  color: gold;
+}
+.area > input:checked + label:hover,
+.area > input:checked + label:hover ~ label,
+.area > input:checked ~ label:hover,
+.area > input:checked ~ label:hover ~ label,
+.rarea > label:hover ~ input:checked ~ label {
+  color: gold;
+  font-size: 24px;
+}
+.rate-area > label:active {
+  position: relative;
+}
+.select-style {
+  border: 1px solid #ffffff;
+  background-color: #111a28;
+  opacity: 0.26;
+  position: absolute;
+  margin-left: 430px;
+  margin-top: 40px;
+
+  width: 69px;
+  height: 32px;
+}
+.select-style select {
+  padding: 5px 8px;
+  width: 95%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  color: #e1e1e1;
+  font-family: "Quicksand", sans-serif;
+}
+
+.select-style select:focus {
+  outline: none;
+  color: white;
+}
+.select-style2 {
+  border: 1px solid #ffffff;
+  background-color: #111a28;
+  opacity: 0.26;
+  position: absolute;
+  margin-left: 510px;
+
+  margin-top: 40px;
+  width: 69px;
+  height: 32px;
+}
+.select-style2 select {
+  padding: 5px 8px;
+  width: 95%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  color: #e1e1e1;
+  font-family: "Quicksand", sans-serif;
+}
+.select-style2 select:hover {
+  color: #29e3ea;
+}
+.select-style select:hover {
+  color: #29e3ea;
+}
+.select-style2 select:focus {
+  outline: none;
+  color: white;
+}
+.select-style2:hover {
+  border: 1px solid #29e3ea;
+}
+.select-style:hover {
+  border: 1px solid #29e3ea;
+}
+.bottom {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 426px;
+  width: 184px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: #4c525a;
+  opacity: 0.26;
+}
+.bottom1 {
+  text-align: center;
+  padding-top: 9px;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.28px;
+  font-weight: 400;
+  line-height: 18px;
+  opacity: 1;
+}
+.bottom:hover {
+  box-shadow: 2px 2px 5px rgba(19, 196, 219, 0.9);
+  transform: scaleX(1.2);
+}
+.circle {
+  position: absolute;
+  margin-top: 165px;
+  background-color: #1f273f;
+  border-radius: 50%;
+  margin-left: 180px;
+  width: 10px;
+  height: 10px;
+}
+.circle:hover {
+  cursor: pointer;
+  border: 2px solid #7e838b;
+}
+.white {
+  margin-top: 165px;
+
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-left: 198px;
+  width: 10px;
+  height: 10px;
+}
+.white:hover {
+  cursor: pointer;
+  border: 2px solid #7e838b;
+}
+.red {
+  margin-top: -10px;
+  background-color: #ed3333;
+  border-radius: 50%;
+  margin-left: 216px;
+  width: 10px;
+  height: 10px;
+}
+.red:hover {
+  border: 2px solid #7e838b;
+  cursor: pointer;
+}
+.blue {
+  margin-top: -10px;
+  background-color: #29e3ea;
+  border-radius: 50%;
+  margin-left: 234px;
+  width: 10px;
+  height: 10px;
+}
+.blue:hover {
+  border: 2px solid #7e838b;
+  cursor: pointer;
+}
