@@ -48,11 +48,18 @@
   padding-top: 258px;
   padding-left: 165px;
   float: left;
-  color: #262626;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 60px;
   font-weight: 900;
-  line-height: 25px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.42;
+  letter-spacing: normal;
+  text-align: left;
+  color: #262626;
+  padding-left: 165px;
+  padding-top: 258px;
+  position: absolute;
 }
 .txt2 {
   padding-left: 165px;
@@ -84,8 +91,8 @@
 }
 .button:hover {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
-  cursor: pointer;
-  background-color: white;
+
+  background-color: rgb(201, 109, 109);
   color: #c71e32;
   font-weight: 600;
 }
@@ -109,7 +116,7 @@
   );
 }
 .fo {
-  width: 394px;
+  width: 414px;
   height: 67px;
   color: #ffffff;
   font-family: Raleway;
@@ -148,7 +155,7 @@
 .ul {
   list-style-type: none;
   padding-top: 179px;
-  padding-left: 330px;
+  padding-left: 250px;
 }
 .li {
   width: 332px;
@@ -259,11 +266,11 @@ svg {
   margin-left: 242px;
 }
 .imgs {
-  padding-left: 879px;
-  margin-top: -79px;
+  padding-left: 869px;
+  margin-top: -59px;
 }
 .p {
-  width: 539px;
+  width: 579px;
   height: 67px;
   color: #ffffff;
   font-family: Raleway;
@@ -340,12 +347,7 @@ svg {
   transition: width 2s, height 2s, transform 2s;
   margin-top: 55px;
 }
-.but:hover {
-  font-size: 22px;
-  width: 320px;
-  height: 110px;
-  transform: rotate(360deg);
-}
+
 .block4 {
   width: 100%;
   height: 500px;
@@ -465,6 +467,18 @@ input[type="email"].imail::-webkit-input-placeholder {
 .bl0 {
   margin-left: -250px;
 }
+.bl1:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.bl2:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.bl3:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
 
 .date {
   background-color: rgba(38, 38, 38, 0.5);
@@ -576,7 +590,6 @@ input[type="email"].imail::-webkit-input-placeholder {
   font-size: 22px;
   width: 320px;
   height: 110px;
-  transform: rotate(360deg);
 }
 
 .block6 {
