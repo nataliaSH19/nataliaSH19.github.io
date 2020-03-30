@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cahee-2</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script/jquery.mask.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".contact__item_phone").mask("(000) 000-0000");
+      });
+    </script>
+    <link rel="stylesheet" href="./style-icon-moon.css" />
+  </head>
+
+  <body>
+    <!-- 1-st section start -->
+    <div id="header-section">
+      <div class="header-section">
+        <div class="header-section__container">
+          <div class="header-section__logo">
+            <p>Cahee</p>
+          </div>
+          <div id="main">
+            <span class="navigation__button" onclick="openNav()"
+              >&#9776;Navigation</span
+            >
+          </div>
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+            }
+
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+              document.getElementById("main").style.marginLeft = "0";
+            }
+          </script>
+        </div>
+        <div class="header-section__text">
+          <p class="header">
+            Fresh Life
+          </p>
+          <p class="describe">
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+          </p>
+        </div>
+        <div class="header-section__scroll-image">
+          <img src="img/mouse.png" alt="scroll" />
+        </div>
+        <button class="header-section__button">
+          get free now
+        </button>
+      </div>
+      <div class="about-us-section">
+        <div class="about-us-section__image">
+          <img src="img/img2.png" alt="Strawberry" />
+        </div>
+        <div class="about-us-section__text">
+          <p class="header">
+            About Us
+          </p>
+          <p class="describe">
+            Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum. Nim id est laborum. Sed ut perspiciatis unde omnis iste
+            natus error sit voluptatem accusantium doloremque laudantium, totam
+            rem aperiam, eaque ipsa quae ab illo inventore.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- 1-st section end -->
+    <!-- start 2-nd section -->
+    <div id="our-services-section">
+      <div class="our-services">
+        <div class="our-services__body">
+          <div class="our-services__list">
+            <div class="our-services__item">
+              <div class="our-services__text">
+                Online Shopping
+              </div>
+              <div class="our-services__icon">
+                <i class="icon-shopping fz-icon"></i>
+              </div>
+            </div>
+            <div class="our-services__item">
+              <div class="our-services__text">
+                Quality Product
+              </div>
+              <div class="our-services__icon">
+                <i class="icon-product fz-icon"></i>
+              </div>
+            </div>
+            <div class="our-services__item">
+              <div class="our-services__text">
+                Domestic & International Delivery
+              </div>
+              <div class="our-services__icon">
+                <i class="icon-delivery fz-icon"></i>
+              </div>
+            </div>
+            <div class="our-services__item">
+              <div class="our-services__text">
+                Well Organized
+              </div>
+              <div class="our-services__icon">
+                <i class="icon-well-organised fz-icon"></i>
+              </div>
+            </div>
+          </div>
+          <div class="our-services__image">
+            <img src="img/img.png" alt="tomato" />
+            <p class="our-services__image_white-text-in-box">Our Services</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end 2-nd section -->
+    <!-- start 3 section -->
+    <div id="gallery-section">
+      <div class="gallery">
+        <div class="gallery__header">
+          <p class="gallery__head-text">
+            Gallery
+          </p>
+          <p class="gallery__desc-text">
+            Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+          </p>
+        </div>
+        <div class="gallery__images">
+          <div class="item1-2-3-block">
+            <img src="img/imgp.png" class="gallery__item1" />
+            <div class="item2-3-block">
+              <img src="img/imgh.png" class="gallery__item2" />
+              <img src="img/imgc.png" class="gallery__item3" />
+            </div>
+          </div>
+          <div class="item-4-5-block">
+            <img src="img/imgk.png" class="gallery__item4" />
+            <img src="img/imghy.png" class="gallery__item5" />
+          </div>
+        </div>
+        <div class="view-more">
+          <button class="view-more__button">
+            VIEW MORE
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- end 3 section -->
+    <!-- start 4 section -->
+    <div id="subscribe-to-us">
+      <div class="subscribe">
+        <div class="subscribe__body">
+          <div class="subscribe__title">
+            Subscribe To Us
+          </div>
+          <div class="subscribe__subtitle">
+            Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam.
+          </div>
+          <div class="subscribe__submit-email">
+            <input
+              class="subscribe__email-form"
+              type="email"
+              placeholder="Your email address..."
+              name=""
+              id=""
+            />
+            <button class="subscribe__submit-button" type="submit">
+              SUBSCRIBE
+            </button>
+          </div>
+          <img class="subscribe__image" src="img/bg.png" alt="bg" />
+        </div>
+      </div>
+    </div>
+    <!-- end 4 section -->
+    <!-- start 5 section -->
+    <div id="blog-section">
+      <p class="header">
+        Blog
+      </p>
+      <p class="main-article">
+        Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        <br />
+        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        <br />
+        dolor in reprehenderit in voluptate velit.
+      </p>
+      <div class="container">
+        <div class="article1">
+          <p class="date">
+            20 <br />
+            nov
+          </p>
+          <p class="article-head">Green Smoothies: Too Much of a Good Thing?</p>
+          <p class="autor">By Auskteez - 2 hours ago</p>
+        </div>
+        <div class="article2">
+          <p class="date">
+            14 <br />
+            nov
+          </p>
+          <p class="article-head">Growing Food and a “Thirst” for Innovation</p>
+          <p class="autor">By Auskteez - 3 hours ago</p>
+        </div>
+        <div class="article3">
+          <p class="date">
+            10 <br />
+            nov
+          </p>
+          <p class="article-head">Pesticides & Food: What You Need to Know</p>
+          <p class="autor">By Auskteez - 6 hours ago</p>
+        </div>
+      </div>
+      <div class="blog-button">
+        <button>view more</button>
+      </div>
+    </div>
+    <!-- end 5 section -->
+    <!-- start last section -->
+    <div id="contact-section">
+      <div class="contact">
+        <div class="contact__header">
+          <div class="contact__title">
+            Contact
+          </div>
+          <div class="contact__subtitle">
+            For new projects, ideas, business or anything you'd like to discuss,
+            contact with me!
+          </div>
+        </div>
+        <div class="contact__column">
+          <div class="contact__forms">
+            <form autocomplete="on">
+              <label for="name"
+                ><input
+                  id="name"
+                  required="required"
+                  maxlength="30"
+                  type="text"
+                  class="contact__item"
+                  placeholder="Your name..."
+              /></label>
+            </form>
+            <form autocomplete="on">
+              <label for="email"
+                ><input
+                  id="email"
+                  required="required"
+                  maxlength="30"
+                  type="email"
+                  class="contact__item"
+                  placeholder="Your email..."
+              /></label>
+            </form>
+            <form autocomplete="on">
+              <label for="phone"
+                ><input
+                  id="phone"
+                  required="required"
+                  maxlength="30"
+                  type="tel"
+                  class="contact__item contact__item_phone "
+                  placeholder="Your phone number..."
+              /></label>
+            </form>
+            <textarea
+              class="contact__item contact__item_bigger"
+              placeholder="Your messge..."
+              id=""
+              cols="30"
+              rows="10"
+            >
+            </textarea>
+          </div>
+          <div class="contact__our-contacts">
+            <div class="contact__contact-name">
+              ADDRESS
+            </div>
+            <div class="contact__contact-information">
+              123 City name, Street, City, Country
+            </div>
+            <div class="contact__contact-name">
+              EMAIL
+            </div>
+            <div class="contact__contact-information">
+              cahee@domain.com
+            </div>
+            <div class="contact__contact-name">
+              PHONE
+            </div>
+            <div class="contact__contact-information">
+              +012 345 6789
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer-container">
+        <div class="footer-container__year-of-foundation">
+          © 2015 Company. All right reserved.
+        </div>
+        <div class="footer-container__company-name">
+          Cahee
+        </div>
+        <div class="footer-container__who-made">
+          Made with
+          <span class="footer-container__who-made_red-text">love</span> by
+          Auskteez
+        </div>
+      </footer>
+    </div>
+    <!-- end last section -->
+  </body>
+</html>
