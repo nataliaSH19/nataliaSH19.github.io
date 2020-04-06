@@ -1,0 +1,278 @@
+// start reset------------------
+body {
+  background: #ffffff;
+  text-decoration: none;
+}
+
+body,
+form,
+div,
+p,
+a,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+table tr,
+table td {
+  border: none;
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+  font-family: "Aleo", serif;
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: underline;
+  outline: none;
+  display: block;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1,
+h2 {
+  font-size: 48px;
+  padding: 0 0 10px 0;
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+@import "header";
+@import "chose-us";
+@import "nav-helper";
+@import "reviews";
+@import "spain";
+@import "footer";
+// end reset----------------------
+
+.mainer {
+  max-width: 1110px;
+  margin: 0 auto;
+
+  &--header {
+    padding: 265px 0 0 0;
+  }
+
+  &--wrapper {
+    display: flex;
+  }
+
+  &--right {
+    justify-content: flex-end;
+  }
+
+  &--reviews {
+    padding-bottom: 210px;
+  }
+
+  &--footer {
+    max-width: 170px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav-helper__item:after {
+    content: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainer {
+    &--header {
+      padding: 165px 0 0 0;
+    }
+
+    &--reviews {
+      padding-bottom: 110px;
+    }
+  }
+
+  .nav-helper__wrapper {
+    flex-direction: column;
+  }
+
+  .subtitle {
+    padding: 30px 0;
+  }
+
+  .search-form__placeholder {
+    right: auto;
+    left: 5px;
+  }
+
+  .search-form__button {
+    padding: 0 45px 0 10px;
+    width: 40px;
+
+    &--text {
+      display: none;
+    }
+  }
+
+  .mainer--wrapper,
+  .review-block {
+    flex-direction: column;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .text-block {
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px 10px;
+  }
+
+  .nav-helper {
+    &__item {
+      padding: 10px;
+    }
+  }
+
+  .chose-us__img-block,
+  .chose-us__text-block {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .chose-us {
+    &__subtitle {
+      padding: 50px 10px;
+    }
+
+    &__text {
+      padding: 10px;
+    }
+  }
+
+  .toggler {
+    width: 40px;
+    display: block;
+  }
+
+  .toggler__icon {
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: relative;
+    margin: 20px 10px 20px -10px;
+  }
+
+  .button {
+    margin: 0 auto;
+  }
+
+  .toggler__icon--open .toggler__line {
+    background-color: transparent;
+    transform: translateX(10px);
+  }
+
+  .toggler__icon--open .toggler__line:before {
+    transform: rotate(45deg) translateY(20px);
+  }
+
+  .toggler__icon--open .toggler__line:after {
+    transform: rotate(-45deg) translateY(-20px);
+  }
+
+  .toggler__line {
+    width: 40px;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 19px;
+    display: block;
+    transition-duration: 0.3s;
+  }
+
+  .toggler__line:before,
+  .toggler__line:after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #ffffff;
+    top: -14px;
+    left: 0;
+    transition-duration: 0.3s;
+  }
+
+  .toggler__line:after {
+    top: auto;
+    bottom: -14px;
+  }
+
+  .nav {
+    position: absolute;
+    z-index: 5;
+    background-color: rgba(37, 37, 37, 0.885);
+    top: -228px;
+    left: 0;
+    width: 100%;
+    border: none;
+    display: none;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .nav__item {
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 0;
+  }
+
+  .nav__item:first-child {
+    border-top: none;
+  }
+
+  .nav__link {
+    display: block;
+    text-align: center;
+    color: #fff;
+    border: none;
+  }
+
+  .nav__link:hover {
+    border: none;
+  }
+
+  .nav__link--active {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .nav--open {
+    display: block;
+  }
+}

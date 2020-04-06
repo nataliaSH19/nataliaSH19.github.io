@@ -1,0 +1,42 @@
+.reviews {
+  background-image: url(../images/bg-reviews.jpg);
+  width: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.review-block {
+  display: flex;
+  text-align: start;
+  background: #333333;
+
+  &__text {
+    padding: 0 53px;
+  }
+}
+
+.user-name {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 26px;
+  padding: 40px 0;
+}
+
+.text {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0 0 10px 0;
+}
+.subtitle {
+  font-family: "Aleo", serif;
+  font-size: 36px;
+  text-transform: none;
+  color: #ffffff;
+  padding: 120px 10px 100px 0;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 0.4px;
+}

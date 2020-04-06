@@ -1,0 +1,25 @@
+.review-block {
+  display: flex;
+  text-align: start;
+  background: #333333;
+}
+.review-block__text {
+  padding: 0 53px;
+}
+
+.user-name {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 26px;
+  padding: 40px 0;
+}
+
+.text {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0 0 10px 0;
+}

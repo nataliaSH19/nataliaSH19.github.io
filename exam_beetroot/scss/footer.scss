@@ -1,0 +1,32 @@
+.footer {
+  background: #333333;
+}
+
+.logo__link--foot {
+  padding: 97px 8px 10px 0;
+}
+
+.description {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 26px;
+  padding-right: 5px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+
+  &__icon {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 26px;
+
+    &:hover {
+      color: #5474fd;
+      cursor: pointer;
+    }
+  }
+}

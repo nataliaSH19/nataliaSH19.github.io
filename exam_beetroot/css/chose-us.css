@@ -1,0 +1,64 @@
+.chose-us {
+  background-image: url(../images/bg-choose-us.jpg);
+  width: 100%;
+  background-size: cover;
+}
+.chose-us__text-block {
+  margin: 0 30px 0 0;
+  width: 50%;
+  text-align: start;
+}
+.chose-us__subtitle {
+  font-family: "Aleo", serif;
+  font-size: 36px;
+  text-transform: none;
+  color: #ffffff;
+  padding: 204px 10px 50px 0;
+  font-weight: normal;
+}
+.chose-us__text {
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  padding: 0 0 26px 0;
+  margin-bottom: 12px;
+}
+.chose-us__img-block {
+  width: 50%;
+  padding: 120px 0;
+}
+
+.img--float {
+  float: right;
+}
+
+.button {
+  margin: 0;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Aleo", serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 38px;
+  max-width: 150px;
+}
+.button:hover {
+  transform: scale(0.98);
+  text-decoration: none;
+}
+.button--bg {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#496bfe+0,496bfe+38,496bfe+38,5474fd+38,5474fd+100 */
+  background: #496bfe;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #496bfe 0%, #496bfe 38%, #496bfe 38%, #5474fd 38%, #5474fd 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#496bfe", endColorstr="#5474fd", GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}

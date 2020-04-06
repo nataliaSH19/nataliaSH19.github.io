@@ -1,0 +1,62 @@
+.nav-helper {
+  background: #333333;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__link {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Aleo", serif;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 85px;
+    position: relative;
+
+    &:hover {
+      text-decoration: none;
+      opacity: 0.8;
+    }
+  }
+
+  &__item {
+    padding: 95px 10px;
+    position: relative;
+    text-align: center;
+
+    &:after {
+      content: "";
+      background-image: url(../images/sp-img-min.png);
+      position: absolute;
+      top: 35px;
+      left: 142px;
+      height: 57px;
+      width: 304px;
+      background-position: -20px 0;
+    }
+
+    &:last-of-type:after {
+      content: none;
+    }
+  }
+
+  &__icon {
+    display: block;
+    font-size: 60px;
+
+    &--search {
+      color: #5474fd;
+    }
+
+    &--check {
+      color: #ff6363;
+    }
+
+    &--up {
+      color: #00a2ff;
+    }
+  }
+}

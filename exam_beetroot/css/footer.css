@@ -1,0 +1,29 @@
+.footer {
+  background: #333333;
+}
+
+.logo__link--foot {
+  padding: 120px 0 15px 0;
+}
+
+.description {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 30px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+.social__icon {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 26px;
+}
+.social__icon:hover {
+  color: #5474fd;
+  cursor: pointer;
+}
