@@ -46,30 +46,8 @@ if (number[0] == number[1] && number[1] == number[2]) {
 } else {
   alert("Немає однакових чисел");
 }
-//завдання4
-let year = prompt("Введіть рік");
 
-if (year >= 1000 && year <= 9999) {
-  const whatYear = year % 4;
 
-  if (whatYear === 0) {
-    alert("Рік високосний");
-  } else {
-    alert("Рік не високосний");
-  }
-}
-//завдання5
-let p = prompt(`Введіть п'ятизначне число`);
-
-if (p > 9999 && p < 100000) {
-  let reverse = p.split("").reverse().join("");
-
-  if (p == reverse) {
-    alert("Це число є паліндромне");
-  } else {
-    alert("Це число не паліндромне");
-  }
-}
 // Завдання 7
 const amount = prompt(`Введіть суму покупки.`);
 
