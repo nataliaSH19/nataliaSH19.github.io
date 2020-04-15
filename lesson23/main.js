@@ -10,10 +10,11 @@ alert(sum1);
 //2
 let first2 = +prompt("Введіть перше число:");
 let second2 = +prompt("Введіть друге число:");
-while (first2 != 0 && second2 != 0) {
-  if (first2 > second2) first2 = first2 % second2;
+
+  if (first2 > second2) {
+    first2 = first2 % second2;
   else second2 = second2 % first2;
-}
+  };
 
 let result2 = first2 + second2;
 alert(result2);
@@ -34,7 +35,7 @@ while (number4 >= 1) {
   count4++;
 }
 alert(count4);
-//5
+
 //6
 
 let number1_6 = +prompt("Введіть будь-яке число:");
