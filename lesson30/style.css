@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+.container {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  margin-bottom: 15px;
+}
+.list {
+  list-style: none;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+#textArea,
+#someText {
+  height: 100px;
+  width: 300px;
+  font-size: 22px;
+}
+#someText {
+  padding: 15px;
+  border: 2px solid black;
+}
+
+#textArea {
+  display: none;
+  border: 5px groove rgb(49, 36, 163);
+  padding: 15px;
+}
+
+#area:focus {
+  outline: none;
+}
