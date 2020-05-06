@@ -40,6 +40,68 @@ h1 {
   padding: 15px;
 }
 
-#area:focus {
-  outline: none;
+.table_sort th {
+  color: #ccf04c;
+  background-color: #291d8d;
+  cursor: pointer;
+}
+
+.table_sort td,
+.table_sort th {
+  width: 130px;
+  height: 30px;
+  text-align: center;
+  border: 2px solid #81a4d1;
+}
+
+.table_sort tbody tr:nth-child(even) {
+  background: #e0e4aa;
+}
+
+th.sorted[data-order="1"],
+th.sorted[data-order="-1"] {
+  position: relative;
+}
+
+th.sorted[data-order="1"]::after,
+th.sorted[data-order="-1"]::after {
+  right: 8px;
+  position: absolute;
+}
+
+th.sorted[data-order="-1"]::after {
+  content: "▼";
+}
+
+th.sorted[data-order="1"]::after {
+  content: "▲";
+}
+#blueRect {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+.res_table {
+  position: relative;
+  min-width: 360px;
+  min-height: 104px;
+  width: 40%;
+  height: 85px;
+  border: 2px solid rgb(100, 68, 190);
+  padding: 15px;
+  margin: 15px 0 5px;
+}
+
+.res_btn {
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  cursor: nwse-resize;
+}
+
+.task3 {
+  height: 250px;
 }
