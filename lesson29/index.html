@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson29(DOM)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Document Object Model (DOM)</h1>
+    <div class="container">
+      <h2>Task1</h2>
+      <p>Song List:</p>
+      <br />
+      <div id="list"></div>
+      <h2>Task2</h2>
+      <button onclick="OpenWindow()">Open</button>
+      <br />
+      <div id="modalWindow" style="display: none;">
+        <h3 class="modal_heading">Welcome to the modal window</h3>
+        <p class="modal_text">to close window press "close"</p>
+        <button onclick="CloseWindow()">Close</button>
+      </div>
+      <h2>Task3</h2>
+      <button onclick="NextNode()" id="change_color" class="traffic_btn">
+        Change color
+      </button>
+      <div id="traffic-lights" class="traffic-lights">
+        <div class="circle red"></div>
+        <div class="circle yellow"></div>
+        <div class="circle green"></div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
