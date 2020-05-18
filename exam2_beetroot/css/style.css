@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: "GothamBold";
-  src: url("../fonts/gothambold1.woff") format("woff");
+  src: url("../fonts/gothambold/gothambold1.woff") format("woff");
 }
 @font-face {
   font-family: "GothamBook";
