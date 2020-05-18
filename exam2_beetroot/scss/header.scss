@@ -1,0 +1,245 @@
+.about-us {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg-about.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    margin: auto;
+  
+    &--blue {
+      background: #87e0fd;
+      /* Old browsers */
+      background: -moz-linear-gradient(
+        -45deg,
+        #87e0fd 15%,
+        #53cbf1 43%,
+        #53cbf1 43%,
+        #05abe0 80%
+      );
+  
+      /* FF3.6-15 */
+  
+      background: -webkit-linear-gradient(
+        -45deg,
+        #87e0fd 15%,
+        #53cbf1 43%,
+        #53cbf1 43%,
+        #05abe0 80%
+      );
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(
+        135deg,
+        #87e0fd 15%,
+        #53cbf1 43%,
+        #53cbf1 43%,
+        #05abe0 80%
+      );
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 );
+    }
+  
+    &--violet {
+      background: #a93cad;
+      /* Old browsers */
+      background: -moz-linear-gradient(
+        -45deg,
+        #a93cad 21%,
+        #c645bc 50%,
+        #ea07cc 88%,
+        #ea07cc 88%
+      );
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(
+        -45deg,
+        #a93cad 21%,
+        #c645bc 50%,
+        #ea07cc 88%,
+        #ea07cc 88%
+      );
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(
+        135deg,
+        #a93cad 21%,
+        #c645bc 50%,
+        #ea07cc 88%,
+        #ea07cc 88%
+      );
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a93cad', endColorstr='#ea07cc',GradientType=1 );
+      /* IE6-9 fallback on horizontal gradient */
+    }
+    &--orange {
+      background: #e06f1f;
+      /* Old browsers */
+      background: -moz-linear-gradient(
+        45deg,
+        #e06f1f 22%,
+        #e28a06 52%,
+        #f7c307 87%,
+        #e5ca50 100%
+      );
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(
+        45deg,
+        #e06f1f 22%,
+        #e28a06 52%,
+        #f7c307 87%,
+        #e5ca50 100%
+      );
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(
+        45deg,
+        #e06f1f 22%,
+        #e28a06 52%,
+        #f7c307 87%,
+        #e5ca50 100%
+      );
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06f1f', endColorstr='#e5ca50',GradientType=1 );
+    }
+  }
+  .header {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    &__nav {
+      display: flex;
+      justify-content: space-between;
+      flex-grow: 1;
+      align-items: center;
+      margin: 0 auto;
+      padding: 0 0 0 85px;
+  
+      &-item {
+        position: relative;
+        display: block;
+        padding: 0 25px;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 22px;
+  
+        &:hover:before,
+        &--active:before {
+          content: "";
+          background-color: #ffffff;
+        }
+  
+        &:focus {
+          font-size: 16px;
+        }
+  
+        &:before {
+          content: "";
+          position: absolute;
+          height: 9px;
+          width: 9px;
+          top: 50%;
+          left: 0;
+          transform: translateY(-50%);
+          border: 1px solid white;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100vh;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .slid-title {
+    font-family: "GothamBold";
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+  
+    &--about-us {
+      color: #ffffff;
+    }
+  }
+  
+  .description {
+    font-family: "GothamBook";
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .social-block {
+    &__list {
+      list-style: none;
+      display: flex;
+      padding: 0;
+  
+      &-item {
+        width: 40px;
+        height: 40px;
+        border: 1px solid white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 0 20px;
+        text-decoration: none;
+  
+        &:hover {
+          background-color: rgb(160, 160, 160);
+        }
+      }
+  
+      &-icon {
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+  }
+  
+  .scroll {
+    &__link {
+      position: absolute;
+      bottom: 50px;
+      left: calc(50% - 20px);
+      display: inline-block;
+  
+      &:hover {
+        transition-duration: 0.8s;
+        transform: translateY(10px);
+      }
+  
+      &:focus {
+        transform: scale(1.2);
+        transition-duration: 0.7s;
+      }
+    }
+  }
+  .fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(220, 220, 220, 0.5) !important;
+    transition: background-color 200ms linear;
+    z-index: 100;
+  }
+  

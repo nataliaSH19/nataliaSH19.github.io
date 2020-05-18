@@ -1,0 +1,1 @@
+"Se tornar adulto, não quer dizer que você tenha que deixar de ser bobo, criativo e divertido."

@@ -1,0 +1,40 @@
+.projects-block {
+    display: flex;
+    padding: 50px 0 140px 0;
+    justify-content: space-between;
+    z-index: 50;
+    align-items: center;
+  
+    &__text {
+      display: block;
+      max-width: 480px;
+      flex-grow: 1;
+      max-height: 470px;
+      overflow: auto;
+      margin: 0 0 0 10px;
+    }
+  
+    &__img {
+      display: inline-block;
+      position: relative;
+      z-index: 5;
+  
+      &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        background-color: #55b7ff;
+        top: -70px;
+        right: 260px;
+        width: 100%;
+        height: 470px;
+      }
+    }
+
+    .block-title {
+      font-size: 22px;
+      line-height: 24px;
+      text-transform: uppercase;
+      text-align: left;
+      color: #2c4058;
+    }
