@@ -1,0 +1,153 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header_img {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1 fr);
+  gap: 50px;
+}
+.img1 {
+  width: 100%;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.img2 {
+  width: 100%;
+  grid-row-start: 1;
+  grid-column-start: 3;
+}
+.img3 {
+  width: 98.5%;
+  grid-row-start: 2;
+  grid-column-start: 3;
+}
+.img4 {
+  width: 100%;
+  grid-row-start: 3;
+  grid-column-start: 1;
+}
+.img5 {
+  width: 100%;
+  grid-row-start: 3;
+  grid-column-start: 2;
+}
+.img6 {
+  width: 100%;
+  grid-row-start: 3;
+  grid-column-start: 3;
+}
+
+.footer_img {
+  margin-top: 82px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  background-color: #1a1a1a;
+}
+.item {
+  width: 100%;
+  opacity: 0.4;
+  transition: opacity 0.2s;
+}
+.item:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+@media (max-width: 700px) {
+  .header_img {
+    margin: 30px;
+    display: grid;
+
+    gap: 20px;
+  }
+  .img1 {
+    width: 100%;
+    grid-row-start: 1;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .img2 {
+    width: 100%;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .img3 {
+    width: 100%;
+
+    grid-row-start: 4;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .img4 {
+    width: 100%;
+    grid-row-start: 5;
+    grid-column-start: 1;
+  }
+  .img5 {
+    width: 100%;
+    grid-row-start: 5;
+    grid-column-start: 2;
+  }
+  .img6 {
+    width: 100%;
+    grid-row-start: 5;
+    grid-column-start: 3;
+  }
+}
+@media (max-width: 500px) {
+  .header_img {
+    margin: 20px;
+    display: grid;
+
+    gap: 10px;
+  }
+  .img1 {
+    width: 100%;
+    grid-row-start: 1;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .img2 {
+    width: 100%;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .img3 {
+    width: 100%;
+
+    grid-row-start: 4;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .img4 {
+    width: 100%;
+    grid-row-start: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .img5 {
+    width: 100%;
+    grid-row-start: 6;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .img6 {
+    width: 100%;
+    grid-row-start: 7;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+}
